@@ -149,7 +149,6 @@ header nav ul li a:hover {
 }
 
 .contact {
-    background-color: var(--black);
     text-align: center;
 }
 
@@ -159,11 +158,9 @@ header nav ul li a:hover {
     font-size: 16px;
 }
 
-.resume {
-    background-color: var(--black);
-}
-
 footer {
     background: var(--black);
     width: 100%;
+    padding: 20px;
+    text-align: right;
 }
