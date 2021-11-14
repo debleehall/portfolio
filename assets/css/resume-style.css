@@ -66,31 +66,89 @@ header nav ul li a:hover {
 }
 
 .hero {
-    position: relative;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-.hero-overlay {
-    text-align: right;
-    position: absolute;
-    text-transform: uppercase;
-    width: 100%;
-    text-shadow: -2px -2px 2px var(--black);
-}
-
-.hero h1 {
-    font-size: 35px;
-    transform: translateY(9vw);
+.page-title {
     color: var(--blue);
-    letter-spacing: 0.45rem;
-    font-weight: 700;
-    padding: 0 30px;
+    display: inline-block;
+    border-bottom: 4px solid var(--dark-gray);
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 40px;
+    font-style: italic;
 }
 
-.hero-image {
-    display: block;
-    overflow: visible;
-    z-index: -1;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.section-title {
+    font-size: 40px;
+    border-bottom: 3px solid var(--dark-gray);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    width: 50%;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.job {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.job h3 {
+    font-size: 30px;
+    border-bottom: 2px solid var(--dark-gray);
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+.job h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.job h5 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+.job ul {
+    font-size: 17px;
+}
+
+.school {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.school h3 {
+    font-size: 30px;
+    border-bottom: 2px solid var(--dark-gray);
+    margin-bottom: 15px;
+    width: 40%;
+}
+
+.school h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.school h5 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: lighter;
 }
