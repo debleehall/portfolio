@@ -150,12 +150,37 @@ header nav ul li a:hover {
 
 .contact {
     text-align: center;
+    font-size: 25px;
 }
 
 .contact a {
     color: var(--dirty-blue);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    background: var(--light-gray);
+    color: var(--blue);
+    border-radius: 5px;
+}
+
+.resume-link {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.resume-link a {
+    color: var(--dirty-blue);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.resume-link a:hover {
+    background: var(--light-gray);
+    color: var(--blue);
+    border-radius: 5px;
 }
 
 footer {
