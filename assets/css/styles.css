@@ -26,6 +26,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 header h1{
@@ -65,26 +66,30 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url(assets/images/hero.jpg);
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    position: relative;
 }
 
-.hero-cta {
-    width: 35%;
+.hero-overlay {
     text-align: right;
     position: absolute;
-    margin: 3.5%;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 35px;
+    transform: translateY(9vw);
     color: var(--blue);
-    font-size: 18px;
-    line-height: 1.2;
+    letter-spacing: 0.45rem;
+    font-weight: 700;
+}
+
+.hero-image {
+    display: block;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .section-title {
